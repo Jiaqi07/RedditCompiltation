@@ -7,7 +7,7 @@ import datetime
 from Google import Create_Service
 from googleapiclient.http import MediaFileUpload
 
-r = praw.Reddit(client_id="t8MMXY3djIS4mjqJHjSdCA", client_secret="_ohct7LpbUEeFJWWHOQLv2jQW23MRw",
+r = praw.Reddit(client_id="---", client_secret="---",
                 user_agent="Jiaqi07")
 
 reddit = Downloader(max_q=True)
